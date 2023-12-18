@@ -3,7 +3,7 @@
  This version is modified so it can connect with unrea engine using sockets. The flow works this way
  
 
- 1. Unreal project stablish comunication iwht instant ngp
+ 1. Unreal project stablish comunication with instant ngp using sockets
  2. Unreal send the active camera view
  3. Instant ngp translate  the camera matrix values to instant-ngp camera matrix system
  4. Instant-ngp intercept opengl buffer draw so it creates a render image with the new camera values
